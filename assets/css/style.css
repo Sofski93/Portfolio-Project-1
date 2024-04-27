@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #008873;
+}
+
+
+/* Header section */
+
+header {
+    background-color: #034c40;
+    padding: 2rem;
+    border-bottom: 5px solid #008873;
+    height: 124px;
+}
+
+.logoHolder {
+    margin-left: 3rem;
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.logoText {
+    font-size: 2rem;
+    float: left;
+    color: white;
+    line-height: 60px;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+#menu-holder {
+    float: right;
+    margin-right: 3rem;
+    line-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+
+nav li:hover {
+    background-color: #a70707;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Intro */
+
+
+#intro-holder {
+    margin: 0 4rem 8rem 4rem;
+    overflow: hidden;
+}
+
+#intro-text {
+    padding: 0 2rem 1rem 0;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+#intro-panels-holder {
+    margin: 0 4rem 8rem 4rem;
+    overflow: hidden;
+}
+
+#intro-holder>div {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.top-image img {
+    width: 100%;
+    /* height: fit-content; */
+}
+
+.link-panel a {
+    background-color: #008873;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.link-panel a:hover {
+    background-color: #a70707;
+}
+
+/* History */
+#history,
+#gallery,
+#contact {
+    margin: 4rem;
+}
+
+.about-us-row {
+    overflow: hidden;
+}
+
+.para-1 {
+    padding: 0 2rem 1rem 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+#history-caption,
+#gallery-caption {
+    padding: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+
+/* Gallery */
+#gallery h3,
+#gallery p {
+    text-align: center;
+    line-height: 2rem;
+}
+
+/* Contact */
+#contact-details {
+    padding-bottom: 4rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+#contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #008873;
+    margin-bottom: 1rem;
+}
+
+input[type=submit] {
+    background-color: #a70707;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #008873;
+    color: white;
+    padding: 1rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #008873;
+}
+
+input[type=reset]:hover {
+    background-color:  #a70707;
+}
+
+#submitted-link {
+    color: #FF007F;
+}
+
+#submitted-link:hover {
+    color: #008873;
+}
+
+/* Footer section */
+#footer {
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: #008873;
+    color: white;
+    justify-content: center;
+    text-align: right;
+    justify-content: space-between;
+    padding-inline: 4rem;
+  }
+  
+  .center-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+#social-icons {
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+#social-icons li {
+    display: inline-block;
+}
+
+#social-icons i {
+    font-size: 3rem;
+    color: #050d0c;
+    padding: 1rem;
+}
+
+#social-icons i:hover {
+    color: #a70707;
+}
+
+/* MEDIA QUERIES SECTION */
+
+/* For medium screen sizes from 800px wide and below */
+@media screen and (max-width: 800px) {
+    header {
+        height: 148px;
+        padding: 1rem;
+    }
+
+    #hero-holder,
+    #hero-image {
+        height: 400px;
+    }
+
+    #hero-overlay-text-box {
+        padding: 2rem;
+    }
+
+    #history-holder {
+        margin-left: 2rem;
+        margin-top: 10px;
+        clear: left;
+        float: left;
+        line-height: 30px;
+    }
+
+    #top-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+
+
+    #history,
+    #gallery,
+    #contact {
+        margin: 3rem;
+    }
+
+    #page-banner-image {
+        margin: 0 3rem 0 3rem;
+    }
+
+    #page-banner-image>img {
+        min-height: 10rem;
+        object-fit: cover;
+    }
+
+    #intro-holder>div {
+        width: 100%;
+        float: left;
+        margin-bottom: 2rem;
+    }
+
+    .history-box {
+        float: left;
+        width: 100%;
+    }
+
+    .para-1 {
+        padding: 0;
+    }
+
+    .para-1 {
+        margin-bottom: 2rem;
+    }
+
+    #intro-holder {
+        margin: 0 4rem 3rem 4rem;
+    }
+
+    #contact-form {
+        width: 66%;
+    }
+}
+
+/* For smartphone screen sizes 600px and below */
+@media screen and (max-width: 600px) {
+
+    #hero-holder,
+    #hero-image {
+        height: 300px;
+    }
+
+    .hero-h1 {
+        font-size: 1.6rem;
+    }
+
+    #hero-overlay-text-box {
+        padding: 2rem;
+        position: absolute;
+        /* left: 15%; */
+        top: 33%;
+    }
+
+    #menu-holder {
+        margin-right: 1rem;
+    }
+
+    
+    #top-button span {
+        display: none;
+    }
+
+    #page-banner-image {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+    #history-caption,
+    #gallery-caption {
+        padding: 1.6rem;
+    }
+
+    #history-panel-holder {
+        margin: 0 1.6rem 0 1.6rem;
+    }
+
+
+    #intro-text {
+        margin: 2rem;
+    }
+
+    #call-to-action-panels-holder {
+        margin: 2rem;
+    }
+
+    #history,
+    #gallery,
+    #contact {
+        margin: 1.6rem;
+    }
+
+    #menu {
+        margin-bottom: 2.5rem;
+    }
+
+    nav li {
+        margin: 0 5px 0 5px;
+        padding: 0 5px 0 5px;
+        font-size: 14px;
+    }
+
+    #social-icons {
+        padding-bottom: 2rem;
+    }
+
+    #social-icons i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    #contact-form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 2rem;
+        font-size: smaller;
+    }
+}
+
+/* For ultra small screen sizes 400px and below, fix for navigation menu */
+@media screen and (max-width: 400px) {
+    nav li {
+        margin: 0 2px 0 2px;
+        padding: 0 2px 0 2px;
+        font-size: 0.75rem;
+    }
+
+    #menu-holder {
+        line-height: 20px;
+    }
+
+    input[type=submit] {
+        margin-bottom: 0.5rem;
+    }
+}
