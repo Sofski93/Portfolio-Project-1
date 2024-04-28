@@ -65,7 +65,7 @@ Fixed position, , social media to the left and a copyright in the middle, contac
 ![Screenshot of the Footer](./assets/images/Footer.jpeg "Footer")
 
 
-### Testing
+## Testing
 ---
 * I have tested that the website works well on Chrome, Safari, Edge.
 
