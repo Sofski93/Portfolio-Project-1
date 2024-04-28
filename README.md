@@ -4,6 +4,8 @@
 
 This is a website about the pyramids of Egypt
 
+Link to the website https://sofski93.github.io/Portfolio-Project-1/index.html
+
 ## Content
 ---
 
