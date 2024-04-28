@@ -104,7 +104,7 @@ Fixed position, , social media to the left and a copyright in the middle, contac
 
 * The code to make social media icons i took from https://docs.fontawesome.com/.
 
- # Media
+ ### Media
 
 * The image in the home and gallery eas taken from https://www.pexels.com/ 
 
