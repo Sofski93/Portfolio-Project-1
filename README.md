@@ -1,6 +1,8 @@
+![Screenshot of the Am I Pesponsive? ](./assets/images/Skärmbild_28-4-2024_14333_ui.dev.jpeg "AM I Pesponsive?")
+
 # Project-1
 
-This is a business site for the tattoo studio Almen-Ink, on it you can browse the studios art, book consultation for an idea, read about the artists and learn how to nurse a healing tattoo, it also contains links to a webshop for other arts.
+This is a website about the pyramids of Egypt
 
 ## Content
 ---
@@ -30,38 +32,37 @@ This is a business site for the tattoo studio Almen-Ink, on it you can browse th
 
 On the home page there is only some information about how many pyramids there are and where they are located.
 
-![Screenshot of the About Page](./assets/media/newindexscreen.png "")
+![Screenshot of the Home Page](./assets/images/Home.jpeg "Home")
 
 ### History
 
-Contains image galleries with tattoo art done at the studio, there will be image descriptions implemented with the JS gallery, but it looked so lackluster to do it straight HTML/CSS.
+Contains the history of the pyramids in Egypt
 
-![Screenshot of the Gallery Page](./assets/media/galleryscreen.png "Gallery 1")
-![Screenshot of the gallery Page](./assets/media/galleryscreen2.png "Gallery 2")
+![Screenshot of the History Page](./assets/images/History.jpeg "History")
 
 ### Gallery
 
 Contains some pictures of pyramids
 
-![Screenshot of the Booking Page](./assets/media/bookingscreen.png "Booking")
+![Screenshot of the Gallery Page](./assets/images/Gallery.jpeg "Gallery")
 
 ### Contact
 
 Contact form where you can fill in your name, email and a question
 
-![Screenshot of the Booking Page](./assets/media/bookingscreen.png "Booking")
+![Screenshot of the Contact Page](./assets/images/Contact.jpeg "Contact")
 
-### Navigation Bar
+### Header & Navigation Bar
 
 Same on every page, Home, History, Gallery and Contact.
 
-![Screenshot of the Booking Page](./assets/media/Nav.png "Navigation")
+![Screenshot of the Header](./assets/images/Header.jpeg "Header")
 
 ### Footer
 
 Fixed position, , social media to the left and a copyright in the middle, contacts to the right
 
-![Screenshot of the Booking Page](./assets/media/Footer.png "Navigation")
+![Screenshot of the Footer](./assets/images/Footer.jpeg "Footer")
 
 
 ### Testing
@@ -70,38 +71,38 @@ Fixed position, , social media to the left and a copyright in the middle, contac
 
 * I have tested that you can go into the different tabs and everything is readable.
 
-### Validator Testing
+## Validator Testing
 
-## Html
+### Html
 
 * No errors were returned when passing through the offcial W3C validator
-## CSS
+### CSS
 
 * No errors were found when passing through the offcial (Jigsaw) validator
 
-## Accessibility
+### Accessibility
 
 * I confirmed that the colors and front chosen are easy to read and accessible by running it through lighthouse in devtools
 
- ![Lighthouse booking test](./assets/media/lighthouseaftercare.png "Aftercare")
+ ![Lighthouse test](./assets/images/prtsc.png)
 
 ## Unfixed Bugs
 
 * No unfixed bugs
   
 
-### Deployment
+## Deployment
 ---
 * In your github repository, click the "settings" button in the navbar above your files.
 * In the left-hand menu, select "pages".
 * Under source, select which branch the webpage is being built from (main for me).
 * Refresh the page and there will be a link to the website.
 
-### Credits
+## Credits
 
-## Content
+### Content
 
-* The code to make social media links was taken from the CI Love Running Project and the icons from https://docs.fontawesome.com/.
+* The code to make social media icons i took from https://docs.fontawesome.com/.
 
  # Media
 
