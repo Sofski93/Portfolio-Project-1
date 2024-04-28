@@ -7,15 +7,13 @@ This is a website about the pyramids of Egypt
 ## Content
 ---
 
-* [Technologies used](https://github.com/Enquil/CodeInstitute-Project-1#technologies-used)
-* [Pages and Features](https://github.com/Enquil/CodeInstitute-Project-1#pages-and-features)
-* [User Experience](https://github.com/Enquil/CodeInstitute-Project-1#user-experience)
-* [Accessibility](https://github.com/Enquil/CodeInstitute-Project-1#accessibility)
-* [Testing](https://github.com/Enquil/CodeInstitute-Project-1#testing)
-* [Deployment](https://github.com/Enquil/CodeInstitute-Project-1#deployment)
-* [Credits](https://github.com/Enquil/CodeInstitute-Project-1#credits)
-* [Site Expansion](https://github.com/Enquil/CodeInstitute-Project-1#site-expansion)
-* [Known Issues](https://github.com/Enquil/CodeInstitute-Project-1#known-issues)
+* [Technologies used](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#technologies-used)
+* [Pages and Features](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#pages-and-features)
+* [Testing](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#testing)
+* [Validator Testing](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#validator-testing)
+* [Unfixed Bugs](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#unfixed-bugs)
+* [Deployment](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#deployment)
+* [Credits](https://github.com/Sofski93/Portfolio-Project-1/blob/main/README.md#credits)
 
 
 ## Technologies used
@@ -72,6 +70,7 @@ Fixed position, , social media to the left and a copyright in the middle, contac
 * I have tested that you can go into the different tabs and everything is readable.
 
 ## Validator Testing
+---
 
 ### Html
 
@@ -87,6 +86,7 @@ Fixed position, , social media to the left and a copyright in the middle, contac
  ![Lighthouse test](./assets/images/prtsc.png)
 
 ## Unfixed Bugs
+---
 
 * No unfixed bugs
   
@@ -99,6 +99,7 @@ Fixed position, , social media to the left and a copyright in the middle, contac
 * Refresh the page and there will be a link to the website.
 
 ## Credits
+---
 
 ### Content
 
