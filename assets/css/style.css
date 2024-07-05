@@ -267,7 +267,7 @@ input[type=reset]:hover {
     height: 100%;
   }
 
-  .hero-text {
+  .intro-text {
     flex: 0;
     font-size: 3rem;
   }
@@ -278,7 +278,7 @@ input[type=reset]:hover {
 }
 
 @media (max-width: 767px) {
-  .container {
+  .header {
     padding: 1rem;
   }
 
@@ -309,15 +309,11 @@ input[type=reset]:hover {
     width: 100%;
   }
 
-  .section-text {
+  .intro-text {
     font-size: medium;
   }
 
   .god-description {
     font-size: medium;
-  }
-
-  .hero-image {
-    display: none;
   }
 }
