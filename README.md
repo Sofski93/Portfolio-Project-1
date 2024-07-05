@@ -42,7 +42,7 @@ Contains the history of the pyramids in Egypt
 
 ### Gallery
 
-Contains some pictures of pyramids
+Contains some pictures of the different pyramids in Egypt and Sphinx
 
 ![Screenshot of the Gallery Page](./assets/images/Gallery.jpeg "Gallery")
 
