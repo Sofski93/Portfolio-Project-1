@@ -320,24 +320,9 @@ input[type=reset]:hover {
 }
 
 /* For smartphone screen sizes 600px and below */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)
 
-    #hero-holder {
-        height: 300px;
-    }
-
-    .hero-h1 {
-        font-size: 1.6rem;
-    }
-
-    #hero-overlay-text-box {
-        padding: 2rem;
-        position: absolute;
-        /* left: 15%; */
-        top: 33%;
-    }
-
-    #menu-holder {
+     #menu-holder {
         margin-right: 1rem;
     }
 
