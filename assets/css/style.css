@@ -264,6 +264,12 @@ input[type=reset]:hover {
     #intro-text {
         padding: 2rem;
     }
+    #intro-holder {
+        margin: 2rem;
+    }
+    #menu-holder {
+        margin-right: 1rem;
+    }
 
     #history-holder {
         margin-left: 2rem;
