@@ -320,7 +320,11 @@ input[type=reset]:hover {
 }
 
 /* For smartphone screen sizes 600px and below */
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px) {
+    header {
+        height: 148px;
+        padding: 1rem;
+    }
 
      #menu-holder {
         margin-right: 1rem;
