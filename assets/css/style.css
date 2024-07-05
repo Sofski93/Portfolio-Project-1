@@ -261,11 +261,7 @@ input[type=reset]:hover {
         padding: 1rem;
     }
 
-    #hero-holder {
-        height: 400px;
-    }
-
-    #hero-overlay-text-box {
+    #intro-text {
         padding: 2rem;
     }
 
