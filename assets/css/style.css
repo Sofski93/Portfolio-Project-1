@@ -254,136 +254,70 @@ input[type=reset]:hover {
 
 /* MEDIA QUERIES SECTION */
 
-/* For medium screen sizes from 800px wide and below */
-@media screen and (max-width: 800px) {
-    header {
-        height: 148px;
-        padding: 1rem;
-    }
-
-    #intro-text {
-        padding: 2rem;
-    }
-    #intro-holder {
-        margin: 2rem;
-    }
-    #menu-holder {
-        margin-right: 1rem;
-    }
-
-    #history-holder {
-        margin-left: 2rem;
-        margin-top: 10px;
-        clear: left;
-        float: left;
-        line-height: 30px;
-    }
-
-    #top-button {
-        padding: 0.7rem 1.5rem;
-        font-size: 0.8rem;
-    }
-
-
-    #history,
-    #gallery,
-    #contact {
-        margin: 3rem;
-    }
-
-    #intro-holder>div {
-        width: 100%;
-        float: left;
-        margin-bottom: 2rem;
-    }
-
-    .history-box {
-        float: left;
-        width: 100%;
-    }
-
-    .para-1 {
-        padding: 0;
-    }
-
-    .para-1 {
-        margin-bottom: 2rem;
-    }
-
-    #intro-holder {
-        margin: 0 4rem 3rem 4rem;
-    }
-
-    #contact-form {
-        width: 66%;
-    }
+@media (max-width: 1200px) {
 }
 
-/* For smartphone screen sizes 600px and below */
-@media screen and (max-width: 600px) 
-    
-    #top-button span {
-        display: none;
-    }
+@media (max-width: 1024px) {
+  .wrapper {
+    text-align: center;
+  }
 
-    #history-caption,
-    #gallery-caption {
-        padding: 1.6rem;
-    }
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
 
-    #history-panel-holder {
-        margin: 0 1.6rem 0 1.6rem;
-    }
+  .hero-text {
+    flex: 0;
+    font-size: 3rem;
+  }
 
-
-    #intro-text {
-        margin: 2rem;
-    }
-
-    #history,
-    #gallery,
-    #contact {
-        margin: 1.6rem;
-    }
-
-    #menu {
-        margin-bottom: 2.5rem;
-    }
-
-    nav li {
-        margin: 0 5px 0 5px;
-        padding: 0 5px 0 5px;
-        font-size: 14px;
-    }
-
-    #social-icons {
-        padding-bottom: 2rem;
-    }
-
-    #social-icons i {
-        font-size: 2rem;
-        padding: 1rem;
-    }
-
-    footer {
-        padding: 2rem;
-        font-size: smaller;
-    }
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-/* For ultra small screen sizes 400px and below, fix for navigation menu */
-@media screen and (max-width: 400px) {
-    nav li {
-        margin: 0 2px 0 2px;
-        padding: 0 2px 0 2px;
-        font-size: 0.75rem;
-    }
+@media (max-width: 767px) {
+  .container {
+    padding: 1rem;
+  }
 
-    #menu-holder {
-        line-height: 20px;
-    }
+  .article {
+    width: 100%;
+    max-width: 400px;
+  }
 
-    input[type=submit] {
-        margin-bottom: 0.5rem;
-    }
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0.25rem;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .god-card {
+    width: 100%;
+  }
+
+  .section-text {
+    font-size: medium;
+  }
+
+  .god-description {
+    font-size: medium;
+  }
+
+  .hero-image {
+    display: none;
+  }
 }
