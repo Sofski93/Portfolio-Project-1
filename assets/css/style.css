@@ -49,10 +49,6 @@ header {
     margin-left: 1rem;
 }
 
-.logo img {
-    width: 100%;
-}
-
 #menu-holder {
     float: right;
     margin-right: 3rem;
@@ -131,7 +127,7 @@ nav a {
     margin: 4rem;
 }
 
-.about-us-row {
+.history-row {
     overflow: hidden;
 }
 
@@ -261,8 +257,7 @@ input[type=reset]:hover {
         padding: 1rem;
     }
 
-    #hero-holder,
-    #hero-image {
+    #hero-holder {
         height: 400px;
     }
 
@@ -288,15 +283,6 @@ input[type=reset]:hover {
     #gallery,
     #contact {
         margin: 3rem;
-    }
-
-    #page-banner-image {
-        margin: 0 3rem 0 3rem;
-    }
-
-    #page-banner-image>img {
-        min-height: 10rem;
-        object-fit: cover;
     }
 
     #intro-holder>div {
@@ -330,8 +316,7 @@ input[type=reset]:hover {
 /* For smartphone screen sizes 600px and below */
 @media screen and (max-width: 600px) {
 
-    #hero-holder,
-    #hero-image {
+    #hero-holder {
         height: 300px;
     }
 
